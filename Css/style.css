@@ -17,7 +17,8 @@ img{
     display: none;
 }
 #search{
-    margin-top: 4px;
+    margin-top: 0px;
+    margin-left:15px;
 }
 #navlist a{
     display: inline;
@@ -47,6 +48,10 @@ nav{
 #navbaricon{
     display: block;
   
+}
+#search{
+    margin-top: 0px;
+    margin-left:5px;
 }
 #navbaricon i{
    padding-left:14px;
