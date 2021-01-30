@@ -31,15 +31,13 @@ nav{
 #navbaricon{
     display: none;
 }
-@media (max-width: 768px) {
-
-#input{
-       width:270px;
-       height:40px;
+@media (max-width:768px) {
+#logo1{
+ display: none;
 }
-#search{
-      height:40px;
-}   
+#logo2{
+    display: none;
+}
 #navicon{
      display: block;
 } 
