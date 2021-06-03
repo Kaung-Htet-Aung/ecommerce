@@ -1,4 +1,12 @@
-body{
+#first-section{
+    width: 100%;
+    height: 500px;
+    background-image: url('../image/spiderman.PNG');
+    background-repeat: no-repeat;
+    background-size: 1350px;
+ }
+ body{
+
     font-family:serif;
 }
 #header{
@@ -8,14 +16,7 @@ body{
 img{
     width: 100%;
 }
-#first-section{
-    margin-top: 0px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-    background-size:1350px;
-    background-image: url('/image/spiderman.PNG');
-}
+
 #input{
     width:200px;
     margin-bottom: -20px;
@@ -45,10 +46,10 @@ i{
  display: none;
 }
 #first-section{
-   
-    background-size:contain;
-    background-image: url('/image/spiderman.PNG');
+    background-size: contain;
+    background-image: url('../image/spiderman.PNG');
 }
+
 nav{
     direction: rtl;
 } 
