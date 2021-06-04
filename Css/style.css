@@ -97,14 +97,23 @@ nav{
 }
 }
 @media (max-width:765px) {
+    #first-section{
+        box-shadow:none;
+        height: 230px;
+    }
+    #header{
+        background-color:#000000;
+        height:230px;
+    }
     .card{
-    
-        margin-top: -250px;     
-        width:100%;
+        background-color: #d3d9d1;
+        border: 0px;
+        width:90%;
         height: 500px;
+        margin-top: 0px;
    }
    img{
-       width:94%;
+       width:96%;
        height: 170px;
    }
  
