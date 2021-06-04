@@ -1,24 +1,32 @@
 #first-section{
     width: 100%;
-    height: 500px;
-    background-image: url('../image/spiderman.PNG');
+    height:420px;
+    background-image: url('../image/one.jpg');
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 100%;
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.2);
+    
  }
+.card-body{
+    padding:5px;
+}
+.card{
+    
+     margin-top: -30px;     
+     width:90%;
+     height: 500px;
+}
  body{
-
+    background: #d3d9d1;
     font-family:serif;
 }
 #header{
     background-color:#000000;
     height:150px;
 }
-img{
-    width: 100%;
-}
 
 #input{
-    width:200px;
+  
     margin-bottom: -20px;
 }
 #navicon{
@@ -26,7 +34,7 @@ img{
 }
 #search{
     margin-top: 0px;
-    margin-left:15px;
+    margin-left:10px;
 }
 #navlist a{
     display: inline;
@@ -45,11 +53,21 @@ i{
 #logo1{
  display: none;
 }
+#name{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom: 15px;
+}
 #first-section{
-    background-size: contain;
-    background-image: url('../image/spiderman.PNG');
+    margin-bottom:0px;
+    background-size: 100%;
+    background-image: url('../image/one.jpg');
 }
 
+#second-section img{
+    width: 120;
+}
 nav{
     direction: rtl;
 } 
@@ -77,4 +95,17 @@ nav{
    
     height:200px;
 }
+}
+@media (max-width:765px) {
+    .card{
+    
+        margin-top: -250px;     
+        width:100%;
+        height: 500px;
+   }
+   img{
+       width:94%;
+       height: 170px;
+   }
+ 
 }
