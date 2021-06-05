@@ -157,7 +157,8 @@ nav{
         margin-left: -10px;
     }
     #search{
-        margin-left: 14px;
+        margin-left: 10px;
+        margin-right: -10px;
     }
     #first-section{
         box-shadow:none;
@@ -180,6 +181,9 @@ nav{
    img{
        width:96%;
        height: 170px;
+   }
+   #third-section img{
+        height: 270px;
    }
    
    #firstList li{
