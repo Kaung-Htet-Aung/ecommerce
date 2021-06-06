@@ -10,10 +10,12 @@
  .price{
   margin-left: -18px;
   }
+
 .fa{
     font-size: 10px;
     padding-left: 0px;
 }
+
 #star{
     margin-left: -52%;
 }
@@ -153,23 +155,55 @@ nav{
 
 }
 @media (max-width:765px) {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    #third-section::-webkit-scrollbar {
+        display: none;
+      }
+  
+      /* Hide scrollbar for IE, Edge and Firefox */
+     #third-section {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    #name{
+        margin-top: -10px;
+    }
     #input{
+        margin-top:-15px;
+        margin-left: -10px;
+    }
+    #navicon{
+        margin-top: -15px;
         margin-left: -10px;
     }
     #search{
+        margin-top:-15px;
         margin-left: 10px;
         margin-right: -10px;
     }
     #first-section{
         box-shadow:none;
-        height: 230px;
+        height: 140px;
     }
     #third-section{
-        width: 93%;
+    
+        text-align: left;
+        width: 92%;
+        overflow: auto;
+        height: 200px;
+        white-space: nowrap;
     }
+    #third-section>.row{
+         margin-top: -30px;
+         width: 40%;
+    }
+     #third-section div{
+       display: inline-block;
+      
+     } 
     #header{
         background-color:#000000;
-        height:230px;
+        height:190px;
     }
     .card{
         background-color: #d3d9d1;
@@ -180,21 +214,25 @@ nav{
    }
    img{
        width:96%;
-       height: 170px;
+      
+       height: 160px;
    }
    #third-section img{
+        width: 90%;
         height: 270px;
    }
    
    #firstList li{
     display: inline-block;
     padding-top:20px;
+    font-size: 11px;
     padding-left:4px;
    
-}
+   }
+
 
   #firstText{
-    padding-top: 7%;
+    padding-top: 3%;
     padding-left:8%;
 }
 #first-section p{
@@ -202,12 +240,12 @@ nav{
 }
 #first-section button{
     margin-top: -20px;
-    font-size: 10px;
+    font-size:5px;
 }
 #first-section h5{
-     font-size: 15px;
+     font-size: 10px;
 }
 #first-section h2{
-    font-size: 20px;
+    font-size: 15px;
 }
 }
